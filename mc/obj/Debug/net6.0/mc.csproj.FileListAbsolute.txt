@@ -1,0 +1,15 @@
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\bin\Debug\net6.0\mc.exe
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\bin\Debug\net6.0\mc.deps.json
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\bin\Debug\net6.0\mc.runtimeconfig.json
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\bin\Debug\net6.0\mc.dll
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\bin\Debug\net6.0\mc.pdb
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.csproj.AssemblyReference.cache
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.AssemblyInfoInputs.cache
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.AssemblyInfo.cs
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.csproj.CoreCompileInputs.cache
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.dll
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\refint\mc.dll
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.pdb
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\mc.genruntimeconfig.cache
+C:\Users\reube\Documents\GitHub\Custom_Language\mc\obj\Debug\net6.0\ref\mc.dll
