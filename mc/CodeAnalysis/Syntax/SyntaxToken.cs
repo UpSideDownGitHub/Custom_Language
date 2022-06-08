@@ -1,4 +1,4 @@
-namespace minsk.CodeAnalysis
+namespace minsk.CodeAnalysis.Syntax
 {
     public sealed class SyntaxToken : SyntaxNode
     {
