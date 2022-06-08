@@ -7,6 +7,8 @@ namespace minsk.CodeAnalysis.Binding
         Multlipication,
         Division,
         LogicalOr,
-        LogicalAnd
+        LogicalAnd,
+        Equals,
+        NotEquals
     }
 }

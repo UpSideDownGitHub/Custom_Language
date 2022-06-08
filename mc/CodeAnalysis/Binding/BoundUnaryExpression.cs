@@ -10,7 +10,7 @@ namespace minsk.CodeAnalysis.Binding
 
         public BoundUnaryOperator Op { get; }
         public BoundExpression Operand { get; }
-        public override Type type => Operand.type;
+        public override Type type => Op.Type;
         public override BoundNodeKind Kind => BoundNodeKind.UnaryExpression;
     }
 }

@@ -17,6 +17,8 @@ namespace minsk.CodeAnalysis.Syntax
         PipePipeToken,
         AmpersandAmersandToken,
         BangToken,
+        BangEqualToken,
+        EqualsEqualsToken,
 
         // Keywords
         FalseKeyword,
@@ -27,5 +29,6 @@ namespace minsk.CodeAnalysis.Syntax
         BinaryExpression,
         UnaryExpression,
         ParenthesizedExpression
+
     }
 }
