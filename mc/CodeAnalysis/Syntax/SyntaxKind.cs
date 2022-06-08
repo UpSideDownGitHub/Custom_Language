@@ -14,11 +14,14 @@ namespace minsk.CodeAnalysis.Syntax
         CloseParenthesisToken,
         OpenParenthesisToken,
         IdentifierToken,
+        PipePipeToken,
+        AmpersandAmersandToken,
+        BangToken,
 
         // Keywords
         FalseKeyword,
         TrueKeyword,
-        
+
         // Expressions
         LiteralExpression,
         BinaryExpression,

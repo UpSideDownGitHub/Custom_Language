@@ -5,6 +5,8 @@ namespace minsk.CodeAnalysis.Binding
         Addition,
         Subtraction,
         Multlipication,
-        Division
+        Division,
+        LogicalOr,
+        LogicalAnd
     }
 }
