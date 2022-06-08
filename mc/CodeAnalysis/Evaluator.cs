@@ -1,3 +1,5 @@
+using minsk.CodeAnalysis.Syntax;
+
 namespace minsk.CodeAnalysis
 {
 
@@ -6,7 +8,7 @@ namespace minsk.CodeAnalysis
         private readonly ExpressionSyntax _root;
         public Evaluator(ExpressionSyntax root)
         {
-            this._root = root;
+            _root = root;
 
         }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using minsk.CodeAnalysis;
+using minsk.CodeAnalysis.Syntax;
 
 namespace minsk
 {
