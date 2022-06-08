@@ -3,11 +3,11 @@ using minsk.CodeAnalysis;
 
 namespace minsk
 {
-    class program
+    internal static class program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            bool showTree = false;
+            var showTree = false;
             while(true)
             {
                 Console.Write("> ");
@@ -31,10 +31,9 @@ namespace minsk
 
                 if (showTree)
                 {
-                    var color = Console.ForegroundColor;
                     Console.ForegroundColor = ConsoleColor.DarkGray;
                     PrettyPrint(syntaxTree.Root);
-                    Console.ForegroundColor = color;
+                    Console.ResetColor();
                 }
 
                 if (!syntaxTree.Diagnostics.Any())
@@ -45,11 +44,10 @@ namespace minsk
                 }
                 else
                 {
-                    var color = Console.ForegroundColor;
                     Console.ForegroundColor = ConsoleColor.DarkRed;
                     foreach (var diagnostic in syntaxTree.Diagnostics)
                         Console.WriteLine(diagnostic);
-                    Console.ForegroundColor = color;
+                    Console.ResetColor();
                 }
             }
         }
@@ -67,7 +65,7 @@ namespace minsk
                 Console.Write(t.Value);
             }
             Console.WriteLine();
-            indent += isLast ? "    " : "│   "; 
+            indent += isLast ? "   " : "│  "; 
             var lastChild = node.GetChildren().LastOrDefault();
             foreach (var child in node.GetChildren())
                 PrettyPrint(child, indent, child == lastChild);
